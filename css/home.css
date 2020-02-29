@@ -1,0 +1,59 @@
+body {
+    background-image: Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+
+    Linear-gradient(127deg, black, black 70.71%),
+    
+    Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+h1{
+    color: white !important;
+}
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    display: flex !important;
+    flex-wrap: nowrap !important;   
+    justify-content: space-around !important;
+    padding-left: 10cm;
+}
+.navbar {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.navbar-nav {
+    margin: 7.5px -15px;
+}
+
+#ulNav>li {
+    margin-left: 70px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px ;
+
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+a:hover{
+    color: red !important;
+}
+a {
+    color:white !important;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 35px;
+}
+img{
+    height: 100%;
+    width: 100%;
+    -webkit-user-select: none;margin: auto;cursor: zoom-out;
+}
+.para {
+    display: none;
+}
